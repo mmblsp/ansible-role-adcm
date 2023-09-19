@@ -1,0 +1,6 @@
+---
+adcm_interfaces: "0.0.0.0"
+adcm_host_port: 8000
+adcm_conteiner_port: 8000
+adcm_host_dir: '/opt/adcm'
+adcm_conteiner_dir: '/adcm/data'

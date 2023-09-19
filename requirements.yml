@@ -1,0 +1,3 @@
+- src: https://github.com/mmblsp/ansible-role-docker.git
+  version: v0.1.1
+  name: docker

@@ -1,0 +1,10 @@
+---
+- name: Start adcm conteiner
+  docker_container:
+    name: adcm
+    image: hub.arenadata.io/adcm/adcm
+    ports:
+      - "{{ [adcm_interfaces, adcm_host_port, adcm_conteiner_port] | join(':') }}"
+    volumes:
+      - "{{ [ adcm_host_dir, adcm_conteiner_dir] | join(':') }}"
+  become: true
