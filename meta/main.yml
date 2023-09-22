@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: adcm
   author: Anatoliy Zhuchkov
   description: ADCM server
 
@@ -12,4 +13,4 @@ galaxy_info:
         - "7"
   galaxy_tags: [adcm]
 dependencies:
-  - role: docker
+  - src: mmblsp.docker
